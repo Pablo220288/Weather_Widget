@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weater Widgets</title>
+
+    <link rel="stylesheet" href="sass/css/styles.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="loader" class="loader"></div>
+        <section class="weather_container">
+            <div id="container" class="container_weather">
+                <div class="weather_location">
+                    <h2 class="location" id="location"></h2>
+                    <p class="date" id="date"></p>
+                    <p class="description" id="description"></p>
+                </div>
+                <div class="weather_temp">
+                    <div id="icon"></div>
+                    <strong class="temperature" id="temperature"></strong>
+                    <div class="units">
+                        <p class="unit">°C</p>
+                        <p class="unit">°F</p>
+                    </div>
+                </div>
+                <div class="weather_temp_max_min">
+                    <div class="temp_max_min">
+                        <p class="temp_txt">Max</p>
+                        <strong class="temp_value" id="temperature_max"></strong>
+                    </div>
+                    <div class="temp_max_min">
+                        <p class="temp_txt"> Min</p>
+                        <strong class="temp_value" id="temperature_min"></strong>
+                    </div>
+                </div>
+                <div class="weather_info">
+                    <div class="info">
+                        <p class="info_txt">Humedad:</p>
+                        <strong class="info_value" id="humidity"></strong>
+                    </div>
+                    <div class="info">
+                        <p class="info_txt">Presión Admosférica:</p>
+                        <strong class="info_value" id="pressure"></strong>
+                    </div>
+                    <div class="info">
+                        <p class="info_txt">Viento:</p>
+                        <strong class="info_value" id="wind"></strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--JavaScript-->
+    <script src="js/index.js"></script>
+</body>
+</html>
